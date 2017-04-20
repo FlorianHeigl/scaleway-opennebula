@@ -1,13 +1,13 @@
 NAME                = opennebula
 VERSION             = latest
-VERSION_ALIASES     = 5.2.0 5.2 5
-TITLE               = OpenNebula 5.2.0
-DESCRIPTION         = OpenNebula 5.2.0
-SOURCE_URL          = https://github.com/jfontan/scaleway-opennebula
-VENDOR_URL          = https://www.centos.org/
+VERSION_ALIASES     = 5.2.2 5.2 5
+TITLE               = OpenNebula 5.2.1
+DESCRIPTION         = OpenNebula 5.2.1
+SOURCE_URL          = https://github.com/FlorianHeigl/scaleway-opennebula
+VENDOR_URL          = https://www.opennebula.org/
 DEFAULT_IMAGE_ARCH  = x86_64
 
-
+# make sure that your attached volume will be 50G (some instances will have 150)
 IMAGE_VOLUME_SIZE = 50G
 IMAGE_BOOTSCRIPT = latest
 IMAGE_NAME = OpenNebula 5.2
