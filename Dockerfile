@@ -19,6 +19,7 @@ RUN set -e; case "${ARCH}" in \
       ;; \
     esac
 
+# Update the base OS, but skip parts that have problems if run in Docker
 RUN yum --exclude=openssh-\* --exclude=policycoreutils\* --exclude=libsemanage-\* --exclude=selinux-\* --exclude=iputils update -y
 
 # Install OpenNebula
